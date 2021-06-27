@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        .dropdown-content {
+            display:none;
+            margin-left: 50px;
+            width: 40px;
+            background-color: lavenderblush;
+        }
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width:25%;
+        }
+        .dropbtn {
+            background-color: gray;
+            margin-top: 45px;
+            margin-left: 50px;
+            width: 150px;
+            height: 30px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .ul {
+            position: relative;
+            float: left;
+            background-color: #f6f6f6;
+        }
+        .li{
+            position:relative;
+            float:left;
+            text-decoration:solid;
+            margin:20px;
+            margin-top:0px;
+        }
+    </style>
+</head>
+<body style="margin:0px;">
+    <div style="float:left;position:relative;background-color:#f6f6f6;width:100%;min-height:120px;">
+        <div style="width: 25%; float: left; position: relative; text-align: center;min-height:90px;">
+            <img src="logo.png" alt="Alternate Text" style="text-align: center; width: 70%; padding-top: 25px;" />
+        </div>
+        <div style="width: 35%; float: left; position: relative; text-align: center;min-height:90px;">
+            <input type="text" name="name" value="" style="text-align: center; width: 49%; margin-top: 35px; padding: 12px; " />
+            <input type="button"     name="name" value="Search"style="background-color: gray; margin: 0px; width: 60px; height: 42px;border-style:hidden;opacity: 0.6;
+  transition: 0.3s;font-size:16px;border-radius:4px;cursor: pointer;text-decoration-color:black;"/>
+        </div>
+        <div class="dropdown" style="width:25%;relative;float:left;">
+            <input type="button" name="name" value="My Account" class="dropbtn"/>
+            <div class="dropdown-content">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+        </div>
+    </div>
+    <div style="position:relative;float:left;width:100%;">
+        <ul class="ul">
+            <li class="li"> <a href="#">computer systems</a></li>
+            <li class="li"> <a href="#">components</a></li>
+            <li class="li"> <a href="#">accessories</a></li>
+            <li class="li"> <a href="#">network</a></li>
+            <li class="li"> <a href="#">printers and scanners</a></li>
+            <li class="li"> <a href="#">gaming</a></li>
+            <li class="li"> <a href="#">clearance</a></li>
+            <li class="li"> <a href="#">bundles</a></li>
+            <li class="li"> <a href="#">custom cooling</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
